@@ -54,6 +54,9 @@ public class ModalidadServiceImpl implements ModalidadService{
 	public List<Modalidad> listaPorNombreIgualActualiza(String nombre, int id) {
 		return repository.listaPorNombreIgualActualiza(nombre, id);
 	}
+	
+	
+	
 
 
 
